@@ -16,3 +16,8 @@ pub use ethers_contract_derive::{abigen, EthAbiType, EthEvent};
 Main error
 `error[E0433]: failed to resolve: use of undeclared crate or module ethers_core`
 
+Resolution
+```
+use ethers::core as ethers_core;
+use ethers::contract as ethers_contract;
+```

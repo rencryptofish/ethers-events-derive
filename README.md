@@ -13,3 +13,6 @@ In ethers-contract/src/lib the derive macros are under the abigen feature which 
 pub use ethers_contract_derive::{abigen, EthAbiType, EthEvent};
 ```
 
+Main error
+`error[E0433]: failed to resolve: use of undeclared crate or module ethers_core`
+
